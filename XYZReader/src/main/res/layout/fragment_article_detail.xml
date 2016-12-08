@@ -92,34 +92,20 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <!--<android.support.design.widget.FloatingActionButton
-        android:id="@+id/share_fab"
-        android:stateListAnimator="@anim/fab_state_list_anim"
-        android:background="@drawable/add_fab_background"
-        android:layout_gravity="bottom|end"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:src="@drawable/ic_share"
-        app:elevation="@dimen/fab_elevation"
-        app:fabSize="normal"
-        app:pressedTranslationZ="@dimen/fab_pressed"
-        android:contentDescription="@string/action_share" />-->
-
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fab"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:src="@drawable/ic_share"
+        android:background="@drawable/add_fab_background"
         app:fabSize="normal"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp"
         app:borderWidth="0dp"
-        app:layout_anchorGravity="bottom|right|end"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:stateListAnimator="@anim/fab_state_list_anim"
-        android:contentDescription="@string/action_share"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
         />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
