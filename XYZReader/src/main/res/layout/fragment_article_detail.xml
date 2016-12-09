@@ -30,7 +30,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="300dp"
                         android:layout_alignParentTop="true"
-                        android:scaleType="fitCenter"
+                        android:scaleType="centerCrop"
                         />
                     <View
                         android:layout_width="match_parent"
@@ -109,8 +109,6 @@
         android:src="@drawable/ic_share"
         android:background="@drawable/add_fab_background"
         app:fabSize="normal"
-        app:elevation="6dp"
-        app:pressedTranslationZ="12dp"
         app:borderWidth="0dp"
         android:layout_gravity="bottom|end"
         android:layout_marginRight="@dimen/fab_margin"
